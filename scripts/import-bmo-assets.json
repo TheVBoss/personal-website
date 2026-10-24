@@ -1,0 +1,27 @@
+[
+  {
+    "name": "bmo-fusion-00.bin",
+    "sha256": "011f34dfc8e768e0dd0d3d580bc8917959a3e4017ecc1119e96ef45c98d5ba2b",
+    "size": 16777216
+  },
+  {
+    "name": "bmo-fusion-01.bin",
+    "sha256": "208e4aa90a4ffa7c2f79d762343c1d587f3ad9b8e03813c66b86473a804f0f66",
+    "size": 16777216
+  },
+  {
+    "name": "bmo-fusion-02.bin",
+    "sha256": "eb3bbcb9ca98bab62339365b2f07c74f0b9bda27e6cb83fa4d33ba8c16d44e00",
+    "size": 16777216
+  },
+  {
+    "name": "bmo-fusion-03.bin",
+    "sha256": "f338ebb84168a70123eb019bf99153367d61f39edee37364c64c795f0c0fd59f",
+    "size": 16777216
+  },
+  {
+    "name": "bmo-fusion-04.bin",
+    "sha256": "e51abb46db7c854e0106844e623a79e89345e5dec1b127e044a13706e9276579",
+    "size": 6364490
+  }
+]

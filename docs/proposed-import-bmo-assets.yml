@@ -1,0 +1,20 @@
+name: Import BMO download assets
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and verify original BMO assets
+        run: python3 scripts/import-bmo-assets.py
+      - name: Save verified assets in the repository
+        run: |
+          git add public/downloads/bmo-fusion-*.bin
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Add verified original BMO Fusion download files'
+          git push
