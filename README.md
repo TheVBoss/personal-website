@@ -6,7 +6,7 @@ This repository contains the website source from deployed version 19, including 
 
 ## Import status
 
-The website code, images, fonts and 3D model assets are included. The five large Fusion download files are pending import. To fetch those exact original files locally, run `python scripts/import-bmo-assets.py` from the repository folder. Each file is checked against its expected size and SHA-256 hash.
+All website source and assets are included, including the five original Fusion download files. The import verified each download file against its expected size and SHA-256 hash. The one-time import workflow has been removed.
 
 ## Download the code
 
