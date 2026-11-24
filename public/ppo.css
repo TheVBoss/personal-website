@@ -6,3 +6,8 @@
 @media(max-width:760px){.ppo-panel-heading{flex-direction:column;gap:16px}.ppo-analysis-grid{grid-template-columns:1fr;gap:22px}.ppo-evidence{border-left:0;border-top:1px solid var(--line);padding:20px 0 0}.ppo-bar-row{grid-template-columns:185px 1fr 55px;gap:12px}.ppo-axis{margin-left:197px;margin-right:67px}.learning-row{align-items:flex-start;flex-direction:column;gap:12px}.ppo-meta{align-items:flex-start;flex-direction:column;gap:8px}}
 @media(max-width:480px){.ppo-panel{padding:22px 18px}.ppo-hero{padding-top:18px}.ppo-hero h1{letter-spacing:-1.3px}.ppo-bar-row{grid-template-columns:1fr 55px;gap:5px 12px}.ppo-bar-label{grid-column:1/-1}.ppo-axis{margin-left:0;margin-right:67px}.ppo-panel h2{font-size:23px}.ppo-segments button{padding:8px 15px}.ppo-control{max-width:100%}.learning-row{margin-top:0;margin-bottom:40px}.learning-row h2{font-size:22px}.ppo-ci-number{font-size:31px}.ppo-success{gap:22px}}
 @media(prefers-reduced-motion:reduce){.ppo-fill,.ppo-segments button,.learning-row{transition:none}}
+
+/* Separate the reference policy from the two friction experiments. */
+.ppo-bars .ppo-group-title{font-size:14px;font-weight:600;letter-spacing:.2px;color:var(--secondary);margin:0}
+.ppo-bars .ppo-group-divider{margin-top:7px;padding-top:20px;border-top:1px solid var(--line)}
+#bar-original{background:#7f8580}
